@@ -1,0 +1,68 @@
+body {
+  font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+  font-size: 100%;
+}
+
+.taskItem {
+  display: inline-block;
+  width: 210px
+}
+
+.taskItem * {
+  margin: 3px;
+}
+
+.taskItem span {
+  width: 50px;
+  display: inline-block
+}
+
+.taskItem input[type=number] {
+  width: 50px;
+}
+
+button {
+  border-radius: 2px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 4px 8px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+
+  width: 80px;
+}
+
+button:hover {
+  text-decoration: none;
+}
+
+button.ready{
+  background: #00853c;
+}
+button.ready:hover{
+  background:#0cca71;
+}
+
+button.running{
+  background: #7ea790;
+  cursor: not-allowed;
+}
+button.running:hover{
+  background:#7ea790;
+}
+
+button.error{
+  background: #ff3939;
+}
+button.error:hover{
+  background:#fd4141;
+}
+
+.notInit {
+  width: 250px;
+  display: block;
+  text-align: center;
+}

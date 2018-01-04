@@ -1,0 +1,13 @@
+{
+  "description":{"message":"Aimia Helper"},
+  "present":{"message":"present"},
+  "training":{"message":"training"},
+  "quest":{"message":"quest"},
+  "start":{"message":"start"},
+  "error":{"message":"error!"},
+  "errorTip":{"message":"Please check count!"},
+  "repeat":{"message":"repeat times"},
+  "notInit":{"message":"Please do some operation in game"},
+  "notReady":{"message":"not ready"},
+  "notReadyTip":{"message":"Please do same action in game"}
+}

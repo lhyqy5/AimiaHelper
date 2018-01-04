@@ -1,0 +1,13 @@
+{
+  "description":{"message":"愛麗絲聖禮 輔助小程式"},
+  "present":{"message":"投食"},
+  "training":{"message":"學園"},
+  "quest":{"message":"戰鬥"},
+  "start":{"message":"開始"},
+  "error":{"message":"出錯了!"},
+  "errorTip":{"message":"請檢查輸入的次數是否超過!"},
+  "repeat":{"message":"重複次數"},
+  "notInit":{"message":"請先在遊戲中進行些操作"},
+  "notReady":{"message":"未就緒"},
+  "notReadyTip":{"message":"請在遊戲中進行一次相應操作"}
+}

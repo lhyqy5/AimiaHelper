@@ -1,0 +1,13 @@
+{
+  "description":{"message":"爱丽丝圣礼 辅助小工具"},
+  "present":{"message":"投食"},
+  "training":{"message":"学园"},
+  "quest":{"message":"战斗"},
+  "start":{"message":"开始"},
+  "error":{"message":"出错了!"},
+  "errorTip":{"message":"请检查输入的次数是否超过!"},
+  "repeat":{"message":"重复次数"},
+  "notInit":{"message":"请先在游戏中进行些操作"},
+  "notReady":{"message":"未就绪"},
+  "notReadyTip":{"message":"请在游戏中进行一次相应操作"}
+}

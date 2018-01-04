@@ -1,0 +1,42 @@
+{
+  "manifest_version": 2,
+  "default_locale": "zh_CN",
+  "name": "Aimia Helper",
+  "description": "__MSG_description__",
+  "version": "0.0.2",
+
+  "icons":{
+    "16": "images/icon16.png",
+    "32": "images/icon32.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+
+  "browser_action": {
+    "default_icon": "images/icon32.png",
+    "default_popup": "popup.html"
+  },
+
+  "content_scripts": [{
+    "matches": [
+      "*://pc-play.games.dmm.com/play/imys/*",
+      "*://pc-play.games.dmm.co.jp/play/imys_r/*"
+    ],
+    "js": ["js/vendor.js", "js/content_script.js"]
+  }],
+
+  "background": {
+    "persistent":true,
+    "scripts": ["js/vendor.js", "js/background.js"]
+  },
+
+  "permissions": [
+    "storage",
+    "webRequest",
+    "webRequestBlocking",
+    "*://pc-play.games.dmm.com/play/imys/*",
+    "*://pc-play.games.dmm.co.jp/play/imys_r/*",
+    "*://a.aimia.dmmgames.com/api/v1/*",
+    "*://r.aimia.dmmgames.com/api/v1/*"
+  ]
+}

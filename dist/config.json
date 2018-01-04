@@ -1,0 +1,50 @@
+{
+  "filterUrls": ["*://a.aimia.dmmgames.com/api/v1/*", "*://r.aimia.dmmgames.com/api/v1/*"],
+  "tasks": [{
+    "name": "present",
+    "repeat": 1,
+    "disabled":false,
+    "requests": [{
+      "name": "present"
+    }]
+  }, {
+    "name": "training",
+    "repeat": 1,
+    "disabled":false,
+    "requests": [{
+      "name": "training_start"
+    }, {
+      "name": "training_select"
+    }, {
+      "name": "training_save"
+    }]
+  }, {
+    "name": "quest",
+    "repeat": 1,
+    "disabled":true,
+    "requests": [{
+      "name": "quest_start"
+    }, {
+      "name": "quest_result"
+    }]
+  }],
+  "requests": [{
+    "name": "training_start",
+    "url": "training/start"
+  }, {
+    "name": "training_select",
+    "url": "training/select"
+  }, {
+    "name": "training_save",
+    "url": "training/save"
+  }, {
+    "name": "present",
+    "url": "chara/\\d+/presents"
+  }, {
+    "name": "quest_start",
+    "url": "quest/stage/start"
+  }, {
+    "name": "quest_result",
+    "url": "quest/stage/result"
+  }]
+}
